@@ -1,0 +1,386 @@
+/* line 5, C:/Ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby24/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../sass/_main.scss */
+.header {
+  padding: 50px 0;
+}
+/* line 4, ../sass/_main.scss */
+.header .container {
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  align-items: center;
+}
+/* line 10, ../sass/_main.scss */
+.header .nav {
+  display: -webkit-flex;
+  display: flex;
+}
+/* line 13, ../sass/_main.scss */
+.header .nav li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  height: 50px;
+  border-radius: 20px;
+}
+/* line 21, ../sass/_main.scss */
+.header .nav a {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Roboto Slab", sans-serif;
+  text-decoration: none;
+  color: #31353e;
+}
+/* line 27, ../sass/_main.scss */
+.header .nav a :hover {
+  color: #fff;
+}
+
+/* line 35, ../sass/_main.scss */
+.btn {
+  background-color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 15px 60px;
+  color: #612316;
+}
+/* line 41, ../sass/_main.scss */
+.btn :hover {
+  background-color: #dd4b2b;
+  color: #fff;
+  cursor: pointer;
+}
+a.btn {
+  display: inline-block;
+  text-decoration: none;
+}
+
+body {
+  font: 300 14px "Roboto", sans-serif;
+  line-height: 30px;
+}
+
+.top h2 {
+  font: 300 72px "Roboto Slab", sans-serif;
+  line-height: 80px;
+  margin-bottom: 25px;
+}
+.menu h3, .top p {
+  font: 30px "Roboto Slab", sans-serif;
+  margin-bottom: 20px;
+  line-height: 40px;
+  color: #31353e;
+}
+h3 {
+  font: 24px "Roboto Slab", sans-serif;
+  margin-bottom: 10px;
+}
+.top h2, .top p, .sign-up input, .details a.btn{
+  color: #fff;
+}
+.top p {
+  display: block;
+  margin-bottom: 120px;
+}
+::-webkit-input-placeholder {
+  font: 400 18px "Roboto Slab";
+  color: #fff;
+}
+.btn, .sign-up input, .details a.btn{
+  font: 400 18px "Roboto Slab", sans-serif;
+}
+.details p, a.btn {
+  font: 300 15px "Roboto", sans-serif;
+}
+a.btn {
+  color: #31353e;
+}
+.nav {
+  display: -webkit-flex;
+  display: flex;
+}
+.nav li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  height: 50px;
+  border-radius: 25px;
+}
+.nav li a {
+  font: 400 18px "Roboto Slab", sans-serif;
+  text-decoration: none;
+  color: #31353e;
+}
+.nav li:hover a {
+  color: #fff;
+}
+.nav .active {
+  background-color: #dd4b2b;
+}
+.nav .active a {
+  color: #fff;
+}
+.main-section {
+  background: url("../img/main-section.jpg") no-repeat center;
+  background-size: cover;
+  color: #fff;
+}
+.main-section .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.wrap-img {
+  border: 5px solid #fff;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.wrap-img img {
+  height: 150px;
+  width: 150px;
+}
+
+.menu {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.menu li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  max-width: 320px;
+  margin-bottom: 80px;
+}
+.news {
+  background-color: #edeff1;
+  padding-bottom: 65px;
+}
+.news .container {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.news-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.news-list li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  max-width: 360px;
+}
+.art {
+  padding: 0 40px;
+  text-align: center;
+}
+.art p {
+  margin-bottom: 35px;
+}
+.news-list li:nth-child(3n+3) {
+  margin-right: 0;
+}
+.news-list .wrap-img {
+  max-width: 360px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+.news-list .wrap-img img {
+  max-width: 360px;
+}
+
+.newsletter {
+  color: #fff;
+  background: url("../img/form-section.jpg") no-repeat center;
+  background-size: cover;
+}
+.newsletter .container {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.newsletter h2{
+  text-align: center;
+  width: 100%;
+  color: #fff;
+}
+.newsletter p {
+  padding: 0 320px;
+  margin-bottom: 45px;
+}
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sign-up input {
+  outline: none;
+  background: rgba(255, 255, 255, 0.2);
+  height: 53px;
+  min-width: 360px;
+  padding: 0 60px 0 10%;
+  border: 1px solid #c5c6c5;
+  border-radius: 25px;
+  box-sizing: border-box;
+}
+.sign-up button {
+  outline: none;
+  margin-left: -10%;
+}
+.product-details {
+  background-color: #fff;
+  padding-bottom: 40px;
+}
+.product-img{
+  max-width: 565px;
+  min-width: 320px;
+  overflow: hidden;
+}
+.product-img img {
+  max-width: 565px;
+  min-width: 320px;
+}
+.product-details ul {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 325px;
+}
+.product-details ul li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  min-width: 325px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.details {
+  padding-top: 60px;
+  max-width: 550px;
+  min-width: 310px;
+}
+.details p {
+  margin-bottom: 30px;
+}
+.details .btn {
+  background-color: #4b4e73;
+}
+.details .btn:hover {
+  background-color: #dd4b2b;
+}
+.product-details ul li:nth-child(odd) .details {
+  order: -1;
+}
+.product-details ul li:nth-child(odd) .details .btn {
+  background-color: #dd4b2b;
+}
+.product-details ul li:nth-child(odd) .details .btn:hover {
+  background-color: #4b4e73;
+}
+.footer-list {
+  background-color: #d75d0e;
+  padding: 90px 0 45px 0;
+}
+.footer-list a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-list a:hover {
+  text-decoration: underline;
+}
+.footer-list ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 90px 0;
+  background: url("../img/form-section.jpg") no-repeat center;
+  background-size: cover;
+}
+.footer-bottom p {
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+

@@ -1,0 +1,47 @@
+.header {
+  padding: 50px 0;
+
+  .container {
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .nav{
+    display: -webkit-flex;
+    display: flex;
+     li {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       padding: 0 20px;
+       height: 50px;
+       border-radius: 20px;
+     }
+    a {
+      font-weight: 400;
+      font-size: 18px;
+      font-family: "Roboto Slab", sans-serif;
+      text-decoration: none;
+      color: #31353e;
+        :hover {
+          color: #fff;
+      }
+    }
+
+  }
+}
+$color: #612316;
+.btn {
+  background-color: #fff;
+  font: 400 18px "Roboto Slab", sans-serif;
+  border: none;
+  border-radius: 25px;
+  padding: 15px 60px;
+  color: $color;
+  :hover {
+    background-color: #dd4b2b;
+    color: #fff;
+    cursor: pointer;
+  }
+}
