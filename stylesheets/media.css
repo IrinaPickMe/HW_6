@@ -1,0 +1,40 @@
+ /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+		.main-section {padding: 100px 0;}
+		.details, .product-img {margin: 10px auto;}
+		.product-details ul li:nth-child(odd) .product-img {order: -1;}
+		.details {padding-top: 10px;}
+		.news-list li {margin-bottom: 35px;}
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+		.header .nav a {font-size: 16px;}
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+		.header {padding: 20px 0;}
+		.header .container {flex-wrap: wrap;}
+		.header .container img {margin: auto;}
+		.header .nav {width: 100%;}
+		.header .nav ul {width:100%; flex-wrap: wrap; justify-content: center; margin: 20px;}
+		.header .nav li {height: 35px;}
+		.header .nav a {font-size: 14px;}
+		.top h1 {font-size: 60px; margin-bottom: 15px;}
+		.top p {font-size: 30px;}
+		.newsletter {background-size: cover;}
+		.sign-up {flex-wrap: wrap;}
+		.sign-up button {margin: 15px 0 0;}
+		.sign-up input {text-align: center;}
+		.product-details .container {padding: 0 10px;}
+		.footer-list .container {flex-wrap: wrap;}
+		.footer-list ul {margin: 15px auto;}
+		
+    }
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+		.top h1 {font-size: 40px; margin-bottom: 15px;}
+		.top p {font-size: 18px;}
+
+    }
